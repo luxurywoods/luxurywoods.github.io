@@ -2,10 +2,10 @@
 title: Luxury Woods
 email: inquire@luxurywoods.co
 url: http://luxurywoods.co
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+description: "Premium Furniture"
+keywords: "furniture, premium furniture, luxury woods, wood"
+skills: "Premium Furniture"
+meta_author: Amir Mushtaq
 
 # Google webmaster tools
 # google_verify:
@@ -24,44 +24,40 @@ contact: static
 # disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
+# Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: cfa783  # Woody brown
+  primary-rgb: "235, 225, 205"  # Light woody brown
+  secondary: 7f6551  # Dark woody brown
+  secondary-dark: 593f2c  # Deep woody brown
 
-# Font Families
-font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 
 # Footer settings
 footer:
   copyright: Luxury Woods
   location: Location
-  social: Around the Web
-  credits: Credits
+  social: Reach Us
+  credits: About
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  # - title: facebook
-  #  url:
+  - title: phone
+    url: "tel:+923006350210"
+  - title: phone
+    url: "tel:+923226167855"
   # - title: stack-overflow
   #  url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: envelope
+    url: "mailto:amirmushtaq297@yahoo.com"
+  - title: envelope
+    url: "mailto:luxurywoods1@hotmail.com"
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Islamabad
   - line: Pakistan
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Luxury Woods is a Premium Quality Furniture Supplier from Pakistan for your Businesses and Offices.'
 
 # Build settings
 markdown: kramdown
@@ -74,3 +70,20 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+collections:
+  tables:
+    output: true
+    permalink: /tables/:title
+
+  sofas:
+    output: true
+    permalink: /sofas/:title
+
+  chairs:
+    output: true
+    permalink: /chairs/:title
+
+  beds:
+    output: true
+    permalink: /beds/:title

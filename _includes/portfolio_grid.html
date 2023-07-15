@@ -2,15 +2,84 @@
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
+      <div id="portfolio-sofas" class="col-lg-12 text-center">
+        <h2>Sofa</h2>
         <hr class="star-primary">
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for post in site.posts %}
+      {% for post in site.sofas %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="#sofasModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div id="portfolio-chairs" class="col-lg-12 text-center">
+        <h2>Chair</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="portfolio-flex-row">
+      {% for post in site.chairs %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#chairsModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div id="portfolio-tables" class="col-lg-12 text-center">
+        <h2>Table</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="portfolio-flex-row">
+      {% for post in site.tables %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#tablesModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div id="portfolio-beds" class="col-lg-12 text-center">
+        <h2>Bed</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="portfolio-flex-row">
+      {% for post in site.beds %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#bedsModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
