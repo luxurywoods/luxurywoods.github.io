@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 1
+date: 2023-07-11
+img: Tuxedo.jpg
+alt: Tuxedo
+description: The tuxedo sofa has high square arms in level with the straight back and connected to it at the 90-degree angle. 
+---

@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 2
+date: 2023-07-11
+img: Lawson.jpg
+alt: Lawson
+description: The Lawson sofa has straight back with loose back cushions. It features a rounded or square arm shape with arms lower than the back.
+---

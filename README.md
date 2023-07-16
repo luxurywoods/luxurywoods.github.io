@@ -30,3 +30,8 @@ View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-the
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
+
+
+- add a nice image in the background of the footer.
+- add catalogue
+

@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 7
+date: 2023-07-11
+img: Chaise.jpg
+alt: Chaise
+description: Chaise is a reclining upholstered seat that combines chair and daybed features. Its name comes from French and means "long (chair)".
+---

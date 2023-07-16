@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 6
+date: 2023-07-11
+img: Settee.jpg
+alt: Settee
+description: The settee is an antique-looking fully or partially upholstered sofa intended for two people. 
+---

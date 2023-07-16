@@ -15,7 +15,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="img/Sofas/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -32,12 +32,12 @@
               {% endif %}
               {% if post.category %}
               <li>Inquire
-                <strong><a href={{post.category}}>here</a></strong>
+                <strong><a href="{{site.url}}{{ post.category }}">here</a></strong>
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            <button id="sofas-close" type="button" class="btn btn-default" data-dismiss="modal">
+              Inquire Now!</button>
           </div>
         </div>
       </div>
