@@ -1,6 +1,6 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
-  <div id="portfolio-sofas" class="container portfolio-flex-grid">
+  <div id="portfolio-sofas" class="container portfolio-flex-grid" style="padding-top: 5vh;">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Sofa</h2>
@@ -16,7 +16,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/Sofas/Thumbnails/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="{{site.baseurl}}/img/Sofas/Thumbnails/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
       </div>
       {% endfor %}
@@ -39,7 +39,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
       </div>
       {% endfor %}
@@ -62,7 +62,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
       </div>
       {% endfor %}
@@ -85,7 +85,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
       </div>
       {% endfor %}

@@ -15,7 +15,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/Sofas/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="{{site.baseurl}}/img/Sofas/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -36,7 +36,7 @@
               </li>
               {% endif %}
             </ul>
-            <button id="sofas-close" type="button" class="btn btn-default" data-dismiss="modal">
+            <button onclick="window.location.href='/contact-us'" id="sofas-close" type="button" class="btn btn-default" data-dismiss="modal">
               Inquire Now!</button>
           </div>
         </div>
@@ -63,7 +63,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -111,7 +111,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -159,7 +159,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}

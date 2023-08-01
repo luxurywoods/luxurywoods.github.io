@@ -36,11 +36,11 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('.portfolio-modal').on('hidden.bs.modal', function() {
-    console.log("HELLO")
-    var contactSection = document.querySelector("#contact");
-    console.log(contactSection);
-    $('html, body').animate({
-        scrollTop: $(contactSection).offset().top
-      }, 800);
-});
+//$('.portfolio-modal').on('hidden.bs.modal', function() {
+    //var contactSection = document.querySelector("#contact");
+    //console.log(contactSection);
+    //$('html, body').animate({
+     //   scrollTop: $(contactSection).offset().top
+     // }, 800);
+     //window.location.href="/contact-us"
+//});
