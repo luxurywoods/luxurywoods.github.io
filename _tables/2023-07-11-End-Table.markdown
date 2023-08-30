@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 3
+date: 2023-07-11
+img: 'End Table.jpg'
+alt: 'End Table'
+description: An end table, also known as a side table is a small and typically narrow table designed to be placed beside a sofa, armchair, or bed. Its main purpose is to provide a convenient surface for items that one might need within arm's reach while sitting or lying down.
+---

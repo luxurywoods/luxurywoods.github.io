@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 8
+date: 2023-07-11
+img: 'Stools.jpg'
+alt: 'Stools'
+description: Stools are a small type of low seat which is designed to provide a comfortable place to rest your feet or serve as extra seating in a living room or lounge area.
+---

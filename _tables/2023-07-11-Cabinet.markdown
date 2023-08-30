@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 7
+date: 2023-07-11
+img: 'Cabinet.jpg'
+alt: 'Cabinet'
+description: Cabinets are versatile pieces of furniture that provide enclosed storage space for various items in homes, offices, and other spaces. Some common types of cabinets include Display Cabinets, Kitchen Cabinets, File Cabinets, Bathroom Cabinets etc.
+---

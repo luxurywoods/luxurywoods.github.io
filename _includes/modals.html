@@ -63,7 +63,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="{{site.baseurl}}/img/Chairs/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -80,12 +80,12 @@
               {% endif %}
               {% if post.category %}
               <li>Inquire
-                <strong><a href={{post.category}}>here</a></strong>
+                <strong><a href="{{site.url}}{{ post.category }}">here</a></strong>
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            <button onclick="window.location.href='/contact-us'" id="sofas-close" type="button" class="btn btn-default" data-dismiss="modal">
+              Inquire Now!</button>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="{{site.baseurl}}/img/Tables/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -128,12 +128,12 @@
               {% endif %}
               {% if post.category %}
               <li>Inquire
-                <strong><a href={{post.category}}>here</a></strong>
+                <strong><a href={{site.url}}{{post.category}}>here</a></strong>
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            <button onclick="window.location.href='/contact-us'" id="sofas-close" type="button" class="btn btn-default" data-dismiss="modal">
+              Inquire Now!</button>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="{{site.baseurl}}/img/Beds/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
@@ -176,12 +176,12 @@
               {% endif %}
               {% if post.category %}
               <li>Inquire
-                <strong><a href={{post.category}}>here</a></strong>
+                <strong><a href={{site.url}}{{post.category}}>here</a></strong>
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            <button onclick="window.location.href='/contact-us'" id="sofas-close" type="button" class="btn btn-default" data-dismiss="modal">
+              Inquire Now!</button>
           </div>
         </div>
       </div>

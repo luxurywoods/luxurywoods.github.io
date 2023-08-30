@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 5
+date: 2023-07-11
+img: 'Twin Bed.jpg'
+alt: 'Twin Bed'
+description: A twin bed is a single bed designed for one person. It is a popular choice for children's bedrooms, guest rooms, and smaller living spaces.
+---

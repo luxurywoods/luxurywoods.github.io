@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 1
+date: 2023-07-11
+img: 'Arm Chair.jpg'
+alt: 'Arm Chair'
+description: An armchair is a comfortable, cushioned chair with a support on each side, where you can rest your arms while you sit. We offer custom order facility. Please send us your designs. 
+---
