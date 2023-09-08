@@ -42,22 +42,20 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: phone
-    url: "tel:+923006350210"
-  - title: phone
     url: "tel:+923226167855"
+  - title: phone
+    url: "tel:+923316167855"
   # - title: stack-overflow
   #  url: http://stackoverflow.com/questions/tagged/jekyll
   - title: envelope
-    url: "mailto:amirmushtaq297@yahoo.com"
-  - title: envelope
-    url: "mailto:luxurywoods1@hotmail.com"
+    url: "mailto:inquire@luxurywoods.co"
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Pakistan
 
 # Credits content
-credits: 'Luxury Woods is a Premium Quality Furniture Supplier from Pakistan for your Businesses and Offices.'
+credits: 'Luxury Woods is a Premium Quality Furniture Supplier from Pakistan.'
 
 # Build settings
 markdown: kramdown
